@@ -1,3 +1,92 @@
 body {
-  background-image:url("../images/Achtergrond.jpg");
+  background-image:url("../images/Blauw.jpg");
+  background-size:auto;
+}
+nav {
+  position: fixed;
+  top: 95px;
+  width: 20%;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0px;
+}
+img{
+  border: 5px solid #555;
+}
+h2{
+  font-family: 'Lato', sans-serif;
+}
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+#TekstH {
+  background-color: #4d86d1;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+#TekstH:hover {
+  background-color: #4679bd;
+}
+#TekstB {
+  background-color: #dce6f2;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+#TekstB:hover {
+  background-color: #c8d0db;
+}
+#TekstP {
+  background-color: #dce6f2;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+#TekstP:hover {
+  background-color: #c8d0db;
+}
+#TekstC {
+  background-color: #dce6f2;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+#TekstC:hover {
+  background-color: #c8d0db;
+}
+header {
+  position: fixed;
+  width: 99%;
+  background-color:#74c0e3;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+div{
+  text-align: left;
+  position: absolute;
+  top: 90px;
+  left: 300px;
+}
+section{
+  align: left;
+  position: absolute;
+  left:300px;
+  top: 260px;
+}
+.Inhoud {
+
+  background-color: #333;
+}
+.Lijst {
+    font-family: 'Lato', sans-serif;
 }
